@@ -16,5 +16,11 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void btnClick_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola men");
+
+        }
     }
 }
