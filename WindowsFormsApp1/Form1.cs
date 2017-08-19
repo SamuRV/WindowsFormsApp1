@@ -22,5 +22,19 @@ namespace WindowsFormsApp1
             MessageBox.Show("Hola men");
 
         }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                checkBox1.Checked = false;
+   
+                
+            }
+            else
+            {
+                checkBox1.Checked = true;
+            }
+        }
     }
 }
